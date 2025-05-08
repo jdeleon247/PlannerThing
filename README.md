@@ -1,2 +1,2 @@
 # PlannerThing
-Python web application for atomic task management
+Web application for atomic task management
