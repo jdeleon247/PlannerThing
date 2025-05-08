@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<main>
-    
-    <body>
-        <head>
-            <link rel="stylesheet" href="styles.css">
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Website Test</title>
-        </head>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Test</title>
+</head>
+<body>
+    <main>
         <header>
             <h1>
                 <img src="images/atom.png" alt="">
@@ -23,11 +23,17 @@
                 </ul>
             </nav>
         </header>
-    </body>
-    <div>
-        <!-- list of tasks -->
-    </div>
-    <footer>PlannerThing © 2025 - Build better habits by organizing your tasks</footer>
-</main>
+
+        <div id="task-list">
+            <!-- render js tasks -->
+        </div>
+
+        <div id="task-form-container">
+            <!-- fillout task details -->
+        </div>
+
+        <footer>PlannerThing © 2025 - Build better habits by organizing your tasks</footer>
+    </main>
+</body>
 
 </html>
