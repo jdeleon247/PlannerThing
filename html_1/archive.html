@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<main>
-    
-    <body>
-        <head>
-            <link rel="stylesheet" href="styles.css">
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Website Test</title>
-        </head>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Test</title>
+</head>
+
+<body>
+    <main>
         <header>
             <h1>
                 <img src="images/atom.png" alt="">
                 <a href="index.html">PlannerThing</a>
             </h1>
             <nav>
-                <ul>             
-                    <li><a href="create">Create New Task</a></li>
-                    <li><a href="archive.html">Archived</a></li>    
-                    <li><a href="login">Login</a></li>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="archive.html">Archived</a></li>
                 </ul>
             </nav>
         </header>
-    </body>
-    <div>
-        ARCHIVED TASKS
-        <!-- list of tasks -->
-    </div>
-    <footer>PlannerThing © 2025 - Build better habits by organizing your tasks</footer>
-</main>
+        <h2>Archived Tasks</h2>
+        <div id="archived-task-list"></div>
+    </main>
+
+
+</body>
+<footer>PlannerThing © 2025 - Build better habits by organizing your tasks</footer>
 
 </html>
