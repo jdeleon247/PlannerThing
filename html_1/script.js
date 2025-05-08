@@ -50,6 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Add event listeners to form
         document.getElementById('new-task-form').addEventListener('submit', addNewTask);
         document.getElementById('cancel-task').addEventListener('click', hideTaskForm);
+
+        document.getElementById('task-name').focus();
       }
       
       
